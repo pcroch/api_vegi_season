@@ -6,4 +6,10 @@ Rails.application.routes.draw do
       get '*path', to: 'base#render_not_found'
     end
   end
+
+  # namespace :api, defaults: { format: :json } do
+  #   namespace :v1 do
+  #     resources :restaurants, only: [ :index, :show, :update ]
+  #   end
+  # end
 end
