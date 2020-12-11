@@ -46,3 +46,8 @@ gem 'simple_token_authentication'
 
 
 gem 'pry-rails', :group => :development
+
+gem 'json', '~> 2.3', '>= 2.3.1'
+gem 'rubysl-open-uri', '~> 2.0'
+
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
