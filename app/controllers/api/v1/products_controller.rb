@@ -9,8 +9,8 @@ class Api::V1::ProductsController < Api::V1::BaseController
   end
 
   def show
-    render json: { products: @product, status: :success }
-    # , status: :success
+    render json: { product: @product, status: :success }
+
   end
 
   def update

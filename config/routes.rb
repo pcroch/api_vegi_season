@@ -3,10 +3,11 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :products
+      resources :months
       get '*path', to: 'base#render_not_found'
     end
   end
-
+  # root to: 'pages#home'
   # namespace :api, defaults: { format: :json } do
   #   namespace :v1 do
   #     resources :restaurants, only: [ :index, :show, :update ]

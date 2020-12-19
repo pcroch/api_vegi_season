@@ -13,4 +13,5 @@ product2 = Product.create(name: 'Peer', kind: 'fruit', months_available: 'Septem
 product3 = Product.create(name: 'Grape', kind: 'fruit', months_available: 'September')
 product4 = Product.create(name: 'Tomatoes', kind: 'vegetable', months_available: 'April')
 product5 = Product.create(name: 'Brocoli', kind: 'vegetable', months_available: 'August')
+product6 = Product.create(name: 'Brocoli', kind: 'vegetable', months_available: 'September')
 
